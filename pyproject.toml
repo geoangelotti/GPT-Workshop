@@ -1,0 +1,15 @@
+[project]
+name = "nanoGPT-lecture-manual"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Alfred Feldmeyer", email = "alfred.feldmeyer@squer.io"},
+]
+dependencies = ["ipykernel>=6.29.5", "pip>=25.1.1", "torch>=2.7.0", "tiktoken>=0.9.0"]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
