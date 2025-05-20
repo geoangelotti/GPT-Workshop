@@ -1,0 +1,15 @@
+[project]
+name = "GPT-Workshop-Part-2"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Keno Dressel", email = "keno.dressel@squer.io"},
+]
+dependencies = ["requests>=2.32.3", "Flask>=3.1.1", "transformers>=4.51.3", "torch>=2.7.0", "datasets>=3.6.0", "openai>=1.79.0", "langfuse>=2.60.5", "deepeval>=2.9.3"]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
