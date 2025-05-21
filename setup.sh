@@ -6,4 +6,4 @@ curl -sSL https://pdm-project.org/install-pdm.py | python3 -
 cd $HOME/SageMaker/GPT-Workshop
 pdm install -q
 
-python3 -m ipykernel install --user --name WORKSHOP_GPT --display-name "WORKSHOP-GPT"
+.venv/bin/python -m ipykernel install --user --name WORKSHOP_GPT --display-name "WORKSHOP-GPT"
